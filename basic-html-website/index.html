@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Portfolio</title>
+
+  <meta name="description" content="">
+  <meta name="keywords"  content="basic html website, website, portfolio, html, html portfolio website">
+  <meta name="author" content="Patricia Mahinay">
+
+  <link rel="icon" href="fav.png" type="image/png">
+
+  <style>
+    body{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    nav{
+      display: flex;
+    }
+
+    .logo-container{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .nav-links{
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      padding: 0;
+      margin-left: auto;
+    }
+
+    .nav-links li a{
+      text-decoration: none;
+      color: black;
+    }
+
+    section.header{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 300px;
+
+    }
+
+    h1, .tagline{
+      margin: 5px;
+
+    }
+
+    main{
+      display: flex;
+      border-top: 1px solid black
+    }
+
+    main section{
+      padding: 20px;
+    }
+
+    .project-container, .education-container{
+      flex: 1;
+    }
+
+    .exp-container{
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      flex: 2;
+    }
+
+    article.project-sample{
+      border-top: 1px solid black;
+    }
+
+    .opensource-container{
+      border-top: 1px solid black;
+    }
+    .reviews-container{
+      border-top: 1px solid black;
+    }
+    blockquote{
+      border: 1px solid black;
+      border-radius: 35px;
+      padding: 10px;
+      margin: 15px;
+    }
+
+    .reviews{
+      display: flex;
+      gap: 10px;
+
+    }
+
+    .professor{
+      color: gray;
+      padding-bottom: 15px;
+    }
+
+  </style>
+
+</head>
+<body>
+  <header class="top-container" >
+    <nav>
+      <div class="logo-container">
+        <img src="fav.png" alt="" style="width: 5%;">
+        <p>Patricia Mahinay</p>
+      </div>
+      <ul class="nav-links">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <section class="header">
+      <h1>Frontend Developer</h1>
+      <p class="tagline">html only with proper layout, no styling</p>
+    </section>
+  </header>
+
+  <main>
+    <!-- Projects / Left -->
+    <section class="project-container" id="projects">
+      <h2>Projects</h2>
+      <p>HTML Only Portfolio</p>
+      
+      <article class="project-sample">
+        <p>Calculator</p>
+      </article>
+      <article class="project-sample">
+        <p>Quiz App</p>
+      </article>
+      <article class="project-sample">
+        <p>Countdown Timer</p>
+      </article>
+      <article class="project-sample">
+        <p>Product Upcoming Page</p>
+      </article>
+    </section>
+
+    <!-- Work experience -->
+    <section class="exp-container">
+      <article class="work-experience">
+        <h2>Work Experience</h2>
+        <a href="https://roadmap.sh/">roadmap.sh</a>
+        <p>Solved all the frontend projects</p>
+        <a href="http://">Visit my Profile</a>
+      </article>
+      <article class="opensource-container">
+        <h3>OpenSource Work</h3>
+        <p>Contibuted to 50 opensource projects. Made my own projects with 200 Github Stars</p>
+        <a href="http://">Visit my GitHub Profile</a>
+      </article>
+    </section>
+
+    <!-- education -->
+    <section class="education-container">
+      <h2>Education</h2>
+      <p>Course I took:</p>
+      <ul>
+        <li>Object Oriented Programming</li>
+        <li>Data Structures and Algorithms</li>
+        <li>Integrated Programming and Technologies 1 </li>
+        <li>Discrete Mathematics</li>
+        <li>Human Computer Interaction</li>
+        <li>Multimedia Systems</li>
+        <li>Database Management Systems</li>
+        <li>Distributed Database Systems</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- reviews -->
+  <section class="reviews-container" id="articles">
+    <h2>Reviews from my Teachers</h2>
+    <div class="reviews">
+      <blockquote>
+        <p>Patricia was a brilliant student; always stood out in her class</p>
+        <footer class="professor">Jane Doe, Professor</footer>
+      </blockquote>
+      <blockquote>
+        <p>Patricia was a brilliant student; always stood out in her class</p>
+        <footer class="professor">Jane Doe, Professor</footer>
+      </blockquote>
+      <blockquote>
+        <p>Patricia was a brilliant student; always stood out in her class</p>
+        <footer class="professor">Jane Doe, Professor</footer>
+      </blockquote>
+    </div>
+    
+  </section>
+
+
+  <footer style="text-align: center;
+      padding: 20px;">
+    <p>&copy; 2025 Patricia Mahinay. All rights reserved.</p>
+  </footer>
+</body>
+</html>
