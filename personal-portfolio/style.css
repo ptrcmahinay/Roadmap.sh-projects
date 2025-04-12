@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+body{
+  font-family: 'Orbitron', sans-serif;
+  background-color: #1a0a14;
+  background-image:
+    linear-gradient(to right, #b5128d1a 1px, transparent 1px),
+    linear-gradient(to bottom, #b5128d1a 1px, transparent 1px);
+  background-size: 20px 20px;
+  color: white;
+}
+
+header{
+  background-color: hwb(323 10% 79% / 0.7);
+  /* border: 1px solid #ff11a2; */
+  box-shadow: 
+    /* 0 0 4px #ff11a2, */
+    0 0 10px #ff11a2;
+  margin: 3%;
+  height: 500px;
+}
+
+nav{
+  display: flex;
+  padding: 5px 20px;
+  justify-content: space-between;
+}
+
+.logo-container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.firstname{
+  color: #ff11a2;
+}
+
+.surname{
+  color: #d856ad;
+}
+
+.nav-links{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin-left: auto;
+}
+
+.nav-links li a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+}
+
+.nav-links li a:hover{
+  color: #ff11a2;
+}
+
+section.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 400px;
+}
+
+h1{
+  font-size: 2rem;
+  color: #ff11a2;
+}
+
+h1, .tagline{
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+.tagline{
+  font-size: 12px;
+  color: white;
+}
+
+.wwm{
+  background-color: #ff11a2;
+  color: #1a0a14;
+  border: 0;
+  border-radius: 3px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.wwm:hover{
+  cursor: pointer;
+  background-color: hwb(323 10% 79% / 0.7);
+  border: 1px solid #ff11a2;
+  color: white;
+}
+
+
+/* main content */
+main{
+  margin: 3%;
+  display: flex;
+  gap: 20px;
+}
+
+.project-container{
+  flex: 1.2;
+}
+
+.exp-container, .education-container{
+  flex: 1;
+}
+
+
+h2{
+  text-align: center;
+  color: #d856ad;
+  text-transform: uppercase;
+}
+
+h4{
+  color: #ff11a2;
+  text-transform: uppercase;
+}
+
+.project-sample, .work-experience, .courses{
+  background-color: #26091b;
+  border:1px solid  #d856ad;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.proj-link, .exp-link{
+  text-decoration: underline;
+  color: #d856ad;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.proj-desc, .exp-desc, ul li, .reviews{
+  color: white;
+  font-size: 12px;
+}
+
+
+.reviews-container{
+  margin: 3%;
+}
+blockquote{
+  background-color: #ff11a2;
+  border-radius: 35px;
+  padding: 20px 40px;
+  margin: 15px;
+}
+
+.reviews{
+  display: flex;
+  gap: 5px;
+}
+
+.professor{
+  color: #000000;
+  padding-bottom: 15px;
+}
+
