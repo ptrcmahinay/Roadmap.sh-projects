@@ -4,7 +4,6 @@ body{
 }
 
 .container{
-
   max-width: 700px;
   margin: auto;
   display: flex;
@@ -68,3 +67,19 @@ a{
   color: black;
 }
 
+
+button{
+  text-align: center;
+  justify-content: center;
+}
+button{
+  background-color: blue;
+  color: white;  
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+button:hover{
+  cursor: pointer;
+}

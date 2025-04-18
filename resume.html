@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resume</title>
   <link rel="stylesheet" href="resume.css">
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
 </head>
 <body>
-  <div class="container">
+  <div class="container" id="resume">
     <header>
       <section class="left-side">
         <h1>Your Name</h1>
@@ -22,8 +22,6 @@
           <br><strong>(123) 456-7890</strong>
           <br><strong><a href="mailto:">no_reply@example.com</a></strong>
         </span>
-        
-        
       </section>
     </header>
 
@@ -104,5 +102,22 @@
       </div>
     </main>
   </div>
+
+  <button onclick="downloadPDF()">Download PDF</button>
+
+  <script>
+    function downloadPDF() {
+      const element = document.getElementById('resume');
+      const opt = {
+        margin:       0.5,
+        filename:     'Resume.pdf',
+        image:        { type: 'jpeg', quality: 1 },
+        html2canvas:  { scale: 3 },
+        jsPDF:        { unit: 'in', format: 'a4', orientation: 'portrait' }
+      };
+      html2pdf().set(opt).from(element).save();
+    }
+  </script>
+
 </body>
 </html>
