@@ -1,0 +1,181 @@
+body{
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.testimonial-card{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.first-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: row wrap;
+  
+}
+
+.circle-img{
+  width: 50px; 
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+  /* align-items: center; */
+}
+
+.first-design{
+  /* max-width: 300px; */
+  /* border: 1px solid black; */
+  flex: 1;
+  min-width: 300px; /* Optional: Set a base width */
+  max-width: 500px; /* Optional: Prevent it from stretching too much */
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+.first-message{
+  background-color: rgb(39, 39, 39);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  position: relative;
+  /* margin: 10px; */
+}
+
+.first-message::before{
+  background-color: rgb(39, 39, 39);
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid rgb(39, 39, 39);
+  border-left: 10px solid rgb(255, 255, 255);
+  border-bottom: 10px solid rgb(255, 255, 255);
+  border-right: 10px solid rgb(255, 255, 255);
+}
+
+.profile{
+  display: flex;
+  margin-top: 20px;
+  /* padding-left: 10px; */
+  /* background-color: aqua; */
+
+}
+
+.name{
+  padding-left: 10px;
+  align-items: center;
+}
+
+h3{
+  margin: 0;
+  font-weight: 400;
+}
+
+.position{
+  font-size: 0.86rem;
+}
+
+.second-design{
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  /* max-width: 300px; */
+}
+
+.second-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  margin: 20px 0;
+  max-width: 600px;
+}
+
+.third-design {
+  flex: 1;
+  min-width: 400px;
+  box-sizing: border-box;
+}
+
+.second-img img.two-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures it fills nicely */
+  border-radius: 15px; /* Optional for soft edges */
+}
+
+.third-design{
+  background-color: rgb(39, 39, 39);
+  color: white;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+h2{
+  margin: 5px;
+  font-weight: 400;
+  margin-left: 0;
+}
+
+.position{
+  color: gray;
+  font-weight: 500;
+}
+
+.third-row{
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.fourth-message{
+  text-align: center;
+  margin: 20px 40px;
+}
+
+.images{
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* space between images */
+  margin-top: 20px;
+}
+
+.c-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-1{
+  opacity: 0.5;
+}
+
+.profile-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.profile-2{
+  width: 70px;
+  height: 70px;
+  margin-top: -10px;
+}
+
+.profile-3{
+  opacity: 0.5;
+}
+
+.person{
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
+}

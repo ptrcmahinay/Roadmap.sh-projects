@@ -8,6 +8,7 @@ This repository contains front-end projects built following the roadmap.sh front
    - my [solution](single-page-cv/)
 3. [Personal Portfolio](https://roadmap.sh/projects/portfolio-website) - Convert the previous simple HTML website into a personal portfolio.
    - my [solution](personal-portfolio/)
-   - **[live demo]()**
 4. [Changelog Component](https://roadmap.sh/projects/changelog-component) - create a simple HTML structure and use CSS to style it into a visually appealing and responsive changelog component. 
-  - my [solution](changelog-component/)
+     - my [solution](changelog-component/)
+5.  [Changelog Component](https://roadmap.sh/projects/testimonial-cards) - to teach about positioning and layout in CSS.
+    - my [solution](testimonial-cards/)
