@@ -42,7 +42,7 @@ input:focus {
 }
 label{
   margin: 5px 0;
-  
+
 }
 .submit{
   background-color: black;
@@ -64,7 +64,7 @@ label{
 .progress-fill{
   height: 100%;
   width: 60%;
-  background: #2a9d8f;
+  background: blue;
   border-radius: 4px;
 }
 

@@ -10,15 +10,18 @@ This repository contains front-end projects built following the roadmap.sh front
 3. **[Personal Portfolio](https://roadmap.sh/projects/portfolio-website)** - Convert the previous simple HTML website into a personal portfolio.
    - my [solution](personal-portfolio/)
 ![screenshot](personal-portfolio/preview.png)
-1. **[Changelog Component](https://roadmap.sh/projects/changelog-component)** - create a simple HTML structure and use CSS to style it into a visually appealing and responsive changelog component. 
+4. **[Changelog Component](https://roadmap.sh/projects/changelog-component)** - create a simple HTML structure and use CSS to style it into a visually appealing and responsive changelog component. 
      - my [solution](changelog-component/)
 ![screenshot](changelog-component/preview.png)
-1. **[Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)** - to teach about positioning and layout in CSS.
+5. **[Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)** - to teach about positioning and layout in CSS.
     - my [solution](testimonial-cards/)
 ![screenshot](testimonial-cards/preview.png)
-1. **[Datepicker UI](https://roadmap.sh/projects/datepicker-ui)** - create a simple datepicker UI using only HTML and CSS. It will not be a functional datepicker, but a static UI component that can later enhance with JavaScript.
+6. **[Datepicker UI](https://roadmap.sh/projects/datepicker-ui)** - create a simple datepicker UI using only HTML and CSS. It will not be a functional datepicker, but a static UI component that can later enhance with JavaScript.
     - my [solution](datepicker/)
 ![screenshot](datepicker/preview.png)
-1. **[Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)** - create a form UI using only HTML and CSS, it will be a static UI component that can be enhance with JavaScript in the future.
+7. **[Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)** - create a form UI using only HTML and CSS, it will be a static UI component that can be enhance with JavaScript in the future.
     - my [solution](accessible-form/)
-![screenshot](accessible-form/)
+![screenshot](accessible-form/preview.png)
+8. **[Tooltip UI](https://roadmap.sh/projects/tooltip-ui)** - A tooltip is a small pop-up box that provides additional information about a navigation item when a user hovers over it.
+   - my [solution](tooltip/)
+![screenshot](tooltip/tooltip-preview.png)

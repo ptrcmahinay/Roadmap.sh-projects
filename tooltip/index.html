@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tooltip UI</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #fff;
+    }
+
+    nav ul{
+      display: flex;
+      gap: 0 50px;
+      list-style: none;
+    }
+
+    ul li a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .tooltip{
+      position: relative;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .tooltiptext{
+      visibility: hidden;
+      width: 120px;
+      background-color: rgb(39, 39, 39);
+      color: #fff;
+      text-align: center;
+      padding: 8px 5px;
+      border-radius: 6px;
+      position: absolute;
+      z-index: 1;
+      top: -50px;
+      left: -40px;
+      font-size: 0.75rem;
+    }
+
+    .tooltip:hover .tooltiptext{
+      visibility: visible;
+    }
+
+    .tooltiptext::before{
+      background-color: rgb(39, 39, 39);
+      content: "";
+      position: absolute;
+      bottom: -20px;
+      left: 40%;
+      width: 0;
+      height: 0;
+      border-top: 10px solid rgb(39, 39, 39);
+      border-left: 10px solid rgb(255, 255, 255);
+      border-bottom: 10px solid rgb(255, 255, 255);
+      border-right: 10px solid rgb(255, 255, 255);
+    }
+
+  </style>
+</head>
+<body>
+  <main>
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="#" class="tooltip" aria-label="Go to homepage">Home
+            <span class="tooltiptext">Go to homepage</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="tooltip" aria-label="View your projects">Projects
+            <span class="tooltiptext">View projects</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="tooltip" aria-label="Read the latest blog posts">Blogs
+            <span class="tooltiptext">Read blog posts</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    
+  </main>
+</body>
+</html>
