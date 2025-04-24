@@ -19,3 +19,6 @@ This repository contains front-end projects built following the roadmap.sh front
 1. **[Datepicker UI](https://roadmap.sh/projects/datepicker-ui)** - create a simple datepicker UI using only HTML and CSS. It will not be a functional datepicker, but a static UI component that can later enhance with JavaScript.
     - my [solution](datepicker/)
 ![screenshot](datepicker/preview.png)
+1. **[Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)** - create a form UI using only HTML and CSS, it will be a static UI component that can be enhance with JavaScript in the future.
+    - my [solution](accessible-form/)
+![screenshot](accessible-form/)

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Form UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <form action="">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="What should we call you?" aria-required="true" aria-invalid="true" required/>
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="youremail@gmail.com"  aria-required="true"
+      aria-invalid="true" onblur="checkValidity('email', '@', 'Invalid email address');" aria-describedby="invalid-email-message" required/>
+      <p id="invalid-email-message" class="invalid" aria-live="polite"></p>
+
+      <Label for="pass">Enter Password</Label>
+      <input type="password" name="password" id="pass" placeholder="xxxxxxxx" minlength="8" aria-invalid="true" aria-required="true" required/>
+      <!-- <p id="invalid-password-message" class="invalid" aria-live="polite"></p> -->
+
+      <Label for="confirmpass">Confirm Password</Label>
+      <input type="password" name="confirmpass" id="confirmpass" placeholder="xxxxxxxx"  aria-required="true" required/>
+      <!-- <p id="password-match-message" class="invalid" aria-live="polite"></p> -->
+
+      <button type="submit" class="submit">Update Profile</button>
+    </form>
+    
+    <div class="progress-container">
+      <div class="progress-bar">
+        <div class="progress-fill"><span>60%</span></div>
+      </div>
+      <h3>Profile Completeness</h3>
+      <div class="checklist" role="list">
+        <p role="listitem" class="done">Create Account</p>
+        <p role="listitem" class="done">Update Roadmap Progress</p>
+        <p role="listitem" class="done">Setup Public Profile</p>
+        <p role="listitem">Complete your first project</p>
+        <p role="listitem">Invite your Friends</p>
+      </div>
+    </div>
+
+    
+  </main>
+  
+</body>
+</html>
