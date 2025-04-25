@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Grid</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body{
+      background-color: #fff;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    figure {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
+
+    .container{
+      width: 600px; /* or 50%, or any fixed size you want */
+      max-width: 90vw; /* optional: limits width on small screens */
+      height: auto;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .img1{
+      grid-column-start: 1;
+      grid-row: span 2;
+    }
+
+    .img3{
+      grid-column-start: 3;
+      grid-row: span 2;
+    }
+
+    .img4{
+      grid-column-start: 1;
+      grid-row-start: 3;
+    }
+
+    .img5{
+      grid-column-start: 2;
+      grid-row-start: span 2;
+    }
+    
+  </style>
+</head>
+<body>
+  <main class="container">
+    <figure class="img1 grid-col-span">
+      <img src="first.jpg" alt="A foggy beach with a large rock formation in the foreground">
+    </figure>
+    <figure class="img2">
+      <img src="third.jpg" alt="A table topped with plates and bowls of food">
+    </figure>
+    <figure class="img3">
+      <img src="fifth.jpg" alt="A row of white apartment buildings next to a street">
+    </figure>
+    <figure class="img4">
+      <img src="second.jpg" alt="A living room with a white couch and a round window">
+    </figure>
+    <figure class="img5">
+      <img src="fourth.jpg" alt="A building with a red door and a tree in front of it">
+    </figure>
+    <figure class="img6">
+      <img src="sixth.jpg" alt="A view of a beach from the top of a hill">
+    </figure>
+  </main>
+</body>
+</html>

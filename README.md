@@ -25,3 +25,6 @@ This repository contains front-end projects built following the roadmap.sh front
 8. **[Tooltip UI](https://roadmap.sh/projects/tooltip-ui)** - A tooltip is a small pop-up box that provides additional information about a navigation item when a user hovers over it.
    - my [solution](tooltip/)
 ![screenshot](tooltip/tooltip-preview.png)
+9. **[Image Grid Layout](https://roadmap.sh/projects/image-grid)** - learn and practice the CSS Grid layout technique, which is essential for creating responsive and flexible web layouts.
+    - my [solution](tooltip/)
+![screenshot](image-grid/grid-preview.png)
